@@ -1,3 +1,4 @@
+import 'package:demoflutter/grid.dart';
 import 'package:demoflutter/second_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: GridViewDemo(),
     );
   }
 }
@@ -34,22 +35,19 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _incrementCounter() {
     setState(() {
-      Navigator.push(context, MaterialPageRoute(builder: (context) => SecondScreen()));
+      Navigator.push(
+          context, MaterialPageRoute(builder: (context) => SecondScreen()));
     });
   }
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       appBar: AppBar(
- 
         title: Text(widget.title),
       ),
       body: Center(
-
         child: Column(
-
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
@@ -66,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: Icon(Icons.add),
-      ), // 
+      ), //
     );
   }
 }

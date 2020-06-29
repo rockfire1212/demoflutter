@@ -57,3 +57,12 @@ Future makebooking(String doctor_name, String doctor_uid, String speciality,
     "patient_age": patient_age,
   });
 }
+
+Future onPressed() async {
+//  var firebaseUser = await FirebaseAuth.instance.currentUser();
+  firestore.collection("speciality").getDocuments().then((querySnapshot) {
+    querySnapshot.documents.forEach((result) {
+      print(result.data);
+    });
+  });
+}
