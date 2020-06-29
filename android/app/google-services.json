@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "16608060986",
+    "firebase_url": "https://docapp-c97fb.firebaseio.com",
+    "project_id": "docapp-c97fb",
+    "storage_bucket": "docapp-c97fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16608060986:android:f81fcf989b238159f17703",
+        "android_client_info": {
+          "package_name": "com.ygglabs.docapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16608060986-7i10jkafemm4hpis19i5b3jg7kieclc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArK5CbN35He9wU9RH-xNreiqOR7KBbqcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16608060986-7i10jkafemm4hpis19i5b3jg7kieclc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
